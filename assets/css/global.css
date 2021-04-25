@@ -1,0 +1,48 @@
+
+
+
+/*----------------hyperlink style----------------*/
+
+
+.theme-9 a,.theme-10 a{ 
+	transition:all 0.5s ease-in-out;
+}
+
+
+.theme-9 a{ color:#f71f52;}
+.theme-10 a{ color:#fee600;}
+
+.theme-8 a:hover,
+.theme-9 a:hover,.theme-10 a:hover{ 
+	color:#333; 
+}
+
+
+/*----------------Paragraph style----------------*/
+
+
+.theme-9 p,.theme-10 p{ margin: 12px 0; color:#999; line-height: 24px;  }
+
+
+.theme-10 p{ color:#666666;}
+/*----------------heading style----------------*/
+
+.theme-8 h1,.theme-8 h2,.theme-8 h3,.theme-8 h4,.theme-8 h5,.theme-8 h6,
+.theme-9 h1,.theme-9 h2,.theme-9 h3,.theme-9 h4,.theme-9 h5,.theme-9 h6,
+.theme-10 h1,.theme-10 h2,.theme-10 h3,.theme-10 h4,.theme-10 h5,.theme-10 h6{ 
+
+	margin: 10px 0 0; color: #333; font-weight:bold; line-height: normal; font-family:'montserrat'; 
+}
+
+.theme-8 h1,.theme-9 h1,.theme-10 h1{ font-size:36px;}
+.theme-8 h2,.theme-9 h2,.theme-10 h2{ font-size:30px;}
+.theme-8 h3,.theme-9 h3,.theme-10 h3{ font-size:26px;}
+.theme-8 h4,.theme-9 h4,.theme-10 h4{ font-size:24px;}
+.theme-8 h5,.theme-9 h5,.theme-10 h5{ font-size:22px;}
+.theme-8 h6,.theme-9 h6,.theme-10 h6{ font-size:18px;}
+
+.theme-8 h1 small,.theme-8 h2 small,.theme-8 h3 small,.theme-8 h4 small,.theme-8 h5 small,.theme-8 h6 small,
+.theme-9 h1 small,.theme-9 h2 small,.theme-9 h3 small,.theme-9 h4 small,.theme-9 h5 small,.theme-9 h6 small{ 
+	
+	display: block; color:#999; font-size: 18px; font-family:'lora-italic'; margin-bottom: 10px;
+}

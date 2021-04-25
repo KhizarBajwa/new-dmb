@@ -1,0 +1,888 @@
+/***********************
+
+	1 General Colors
+	2 Red Skin ------- #fc283f 
+	3 Green & Blue Skin ------- #5cae4a & #3e5c92
+	4 Red2 Skin ------- #e80017
+	5 Pink Skin ------- #f00a77
+	6 Turquoise Skin ------- #3b90cd
+	7 LightGreen Skin ------- #82b441
+	8 Purple & Orange Skin ------- #2f1f66 & #ff8500
+
+***********************/
+
+/***********************
+
+	1 General Colors
+
+***********************/
+
+.btn-overlay-effect:hover:before,
+.btn-overlay-effect:focus:before,
+.btn-overlay-effect:active:before{
+	background-color:rgba(0, 0, 0, 0.12);
+}	
+.white-bg,
+.section-banner-st-1 .btn-primary,
+.section-banner-st-2 .btn-primary,
+.package-box-inner,
+.section-testimonials-st-1 .testimonials-content,
+.section-testimonials-st-2 .testimonials-content,
+.section-quote .btn-primary-revert:hover,
+.section-quote .btn-primary-revert:focus,
+.section-quote .btn-primary-revert:active,
+.section-calout-st-1 .btn-primary:hover,
+.section-calout-st-1 .btn-primary:focus,
+.section-calout-st-1 .btn-primary:active,
+.section-subscribe-st-3 .btn-third:hover,
+.section-subscribe-st-3 .btn-third:focus,
+.section-subscribe-st-3 .btn-third:active,
+.footer-st-3,
+.subscribe-st-4-inner .subscribe-form-inner .btn-third,
+.section-banner-st-5 .banner-text .red2-primary-color,
+.section-banner-st-5 .btn-primary,
+.footer-st-5 .social-icon a:hover,
+.section-team-st-1 .social-rounded li a:hover,
+.section-testimonials-st-5.eff-2 .testimonial-slider3,.section-subscribe-st-11 .subscribe-form-inner{
+	background-color:#fff;
+}
+.white-color,
+.section-banner-st-1 .banner-h1,
+.section-banner-st-1 .banner-h2,
+.section-banner-st-1 .btn-default,
+.section-banner-st-2 .banner-h2,
+.section-banner-st-2 .btn-default,
+.section-video .btn-default,
+.section-banner-st-1 .btn-default:hover,
+.section-banner-st-1 .btn-default:focus,
+.section-banner-st-1 .btn-default:active,
+.section-banner-st-1 .btn-primary:hover,
+.section-banner-st-1 .btn-primary:focus,
+.section-banner-st-2 .btn-default:hover,
+.section-banner-st-2 .btn-default:focus,
+.section-banner-st-2 .btn-default:active,
+.section-banner-st-2 .btn-primary:hover,
+.section-banner-st-2 .btn-primary:focus,
+.search-icon i,
+.section-team-st-1 .team-info,
+.section-package .package-link .btn-secondary:hover,
+.section-package .package-link .btn-secondary:focus,
+.section-package .package-link .btn-secondary:active,
+.section-subscribe-st-1 .btn-third,
+.header-st-1 button.nav-toggle,
+.header-st-2 button.nav-toggle,
+.section-services-st-2 .service-box .service-box-inner,
+.section-services-st-2 .service-box .service-box-inner a,
+.section-quote,
+.section-quote .btn-primary-revert,
+.section-subscribe-st-2,
+.section-subscribe-st-2 .btn-third,
+.footer-st-1 a,
+.section-banner-st-3,
+.section-team-st-2 .social-rounded-2 li a:hover,
+.callout-text,
+.section-subscribe-st-3 h3,
+.section-subscribe-st-3 .btn-third,
+.header-st-3 button.nav-toggle,
+.section-banner-st-4,
+.subscribe-st-4-inner,
+.subscribe-st-4-inner .subscribe-form-inner .form-control,
+.subscribe-st-4-inner .subscribe-form-inner .btn-third:hover,
+.subscribe-st-4-inner .subscribe-form-inner .btn-third:focus,
+.subscribe-st-4-inner .subscribe-form-inner .btn-third:active,
+.section-banner-st-5 .banner-text,
+.section-banner-st-5 .btn-primary:hover,
+.section-banner-st-5 .btn-primary:active,
+.section-banner-st-5 .btn-primary:focus,
+.section-banner-st-5 .btn-default,
+.section-aboutus-st-2 .aboutus-link .btn-default,
+.category-icon,
+.section-team-st-4 .team-social ul li a:hover,
+.form-style-3 .btn-default,
+.form-style-3 .btn-default:hover,
+.form-style-3 .btn-default:active,
+.form-style-3 .btn-default:focus,
+.bootstrap-datetimepicker-widget td span:hover,
+.bootstrap-datetimepicker-widget td.day:hover,
+.bootstrap-datetimepicker-widget td.hour:hover,
+.bootstrap-datetimepicker-widget td.minute:hover,
+.bootstrap-datetimepicker-widget td.second:hover,
+.bootstrap-datetimepicker-widget td span.active,
+.bootstrap-datetimepicker-widget thead tr:first-child th:hover,
+.form-style-3 .dropdown-menu > li > a:hover,
+.form-style-3 .dropdown-menu > li > a:active,
+.form-style-3 .dropdown-menu > li > a:focus,
+.form-style-3 .dropdown-menu > li.selected > a:hover,
+.section-subscribe-st-5 .subscribe-content-inner h3,
+.section-subscribe-st-5 .btn-third,
+.section-subscribe-st-5 .btn-third:hover,
+.section-subscribe-st-5 .btn-third:active,
+.section-subscribe-st-5 .btn-third:focus,
+.footer-st-5 p,
+.footer-st-5 p a,
+.footer-st-5 .social-icon a,
+.section-banner-st-6 ,
+.section-banner-st-6 .btn-default,
+.featuerlists li span,
+.getapptext-holder,
+.section-subscribe-st-6,
+.section-subscribe-st-6 .btn-third,
+.section-subscribe-st-6 .btn-third:hover,
+.section-subscribe-st-6 .btn-third:active,
+.section-subscribe-st-6 .btn-third:focus,
+.header-st-6 .menu li a.btn-default,
+.header-st-6 .menu li a.btn-default:active,
+.header-st-6 .menu li a.btn-default:hover,
+.header-st-6 .menu li a.btn-default:focus ,
+.header-st-6 button.nav-toggle,
+.header-st-5 button.nav-toggle,
+.header-st-4 button.nav-toggle,
+.section-team-st-1 .social-rounded li a,
+.travel-box-content,
+.footer-st-7 p ,
+.footer-st-7 p a ,
+.footer-st-7 .social-icon li a,
+.header-st-7 button.nav-toggle,.section-banner-st-13 h2,.section-banner-st-13 p,
+.section-subscribe-st-11 h6{
+	color:#fff;
+}
+.overlay-bg-secondary {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.conent-list-style li {
+    border-bottom: 1px solid #eeeeee;
+}
+.section-package .btn-secondary{
+	background-color:transparent;
+}
+.dark-bg-color,
+.section-team-st-2 .social-rounded-2 li a,.section-subscribe-st-10,
+.section-subscribe-st-11 .form-control,.section-blog-st-15,
+.section-services-st-18,.section-contact-st-18{
+    background-color: #f9f9f9;
+}
+.section-testimonials-st-1 .testimonials-content,
+.section-testimonials-st-2 .testimonials-content,
+.section-testimonials-st-3  blockquote p,
+.section-services-st-3 .services-descrip p,
+.section-aboutus p,
+.section-calout-st-1 .callout-text p,
+.footer-st-3 p,
+.footer-st-3 p a,
+.footer-st-3 .social-default li a,
+.section-services-st-4  .services-descrip p,
+.section-title-st-4 p,
+.section-aboutus-st-2 .aboutus-app-inner p,
+.featureapp-title span,
+.featureapp-descrip p,
+.featuerlists li,
+.getapptext-holder  p,
+.getapptext-holder > span,
+.footer-st-6 p,
+.footer-st-6 .social-default li a,
+.footer-st-6 p a,
+.section-aboutus-st-3 p,
+.blog-box-descrip p,
+.conent-list-style li ,
+.section-aboutus-st-4 .aboutus-title span,
+.section-aboutus-st-4 .aboutuslists li,
+.section-aboutus-st-4 p,
+.section-title-st-7 p,
+.section-title-st-7 span,
+.section-title-st-8 p,.section-product-st-8 .adventure ul li p,.get_product h2 small,.get_product p,
+.section-video-st-1 h4 small,.section-video-st-1 p,.section-testimonials-st-8 .testimonials-content p,
+.section-video-st-2 h4 small,.section-video-st-2 p,.section-title-st-9 p,.section-package-st-3 .package-inner-content p,
+.section-services-st-1 .services-descrip p,.section-banner-st-11 .banner-h1 small,.section-banner-st-11 .social-icon a,
+.section-title-st-11 p,.professional-info-box ul li,.timeline-item p,.section-product-st-11 p,
+.section-testimonials-st-11 .testimonials-content p,.contact-box p,
+.section-banner-st-12 .banner-h1 small,.section-banner-st-12 p,
+.section-services-st-5 .services-descrip p,.section-testimonials-st-12 small,
+.section-testimonials-st-12 p,.section-services-st-6 .services-descrip p,
+.section-blog-st-1 .blog-box-meta,.section-blog-st-1 .blog-box-descrip p,
+.contact-form .form-control,.top-info li a,.section-title-st-13 p,.package-list,
+.footer-st-13 p,.footer-st-13 p a,.section-title-st-16 p,.section-services-st-16 .services-descrip p,
+.section-testimonials-st-16 .textimonial-box-msg p,.header-st-17 .top-info li,
+.section-title-st-17 p,.section-portolio-st-17 .portfolio-content p,
+.section-team-st-17 .team-position p,.section-blog-st-17 .blog-box-meta li,
+.section-blog-st-17 .blog-box-meta li a,.section-blog-st-17 .blog-box-descrip p,
+.footer-st-17 p,.footer-st-17 a,
+.section-title-st-20 p,.section-author .author-info li a,
+.section-aboutbook .aboutbook-descrip p,
+.section-testimonials-st-20 .textimonial-box-msg p,
+.section-testimonials-st-20 .testimonial-author h5,
+.footer-st-20 p,.section-services-st-21 .services-descrip p,
+.section-causes-st-21 .causes-descrip p{
+	color:#999;
+}
+.partner-box-inner {
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.024);
+}
+.section-subscribe-st-1 {
+    background-color: #15181d;
+}
+.footer-st-1{
+	background-color:#1d2025;
+}
+.footer-st-1 .social-default li a,
+.footer-st-1 .ft-credit-row p ,
+.footer-st-1 .ft-credit-row p a,
+.section-subscribe-st-3 .subscribe-content-inner p,
+.section-services-st-4  .services-title h4,
+.section-title-st-4 h1,
+.section-team-st-3 .team-name h4,
+.section-subscribe-st-6 p,
+.section-testimonials-st-4 .testimonial-box-position h4,.section-delivery p,.section-product-st-10 .product-title p,
+.footer-st-10 .ft-credit-row p,.footer-st-10 .ft-credit-row a,.section-services-st-7 .services-descrip p,
+.section-services-st-19 .services-title small,.section-video-st-19 .video-title h4,
+.section-video-st-19 .video-descrip p,
+.section-title-st-19 p,.section-agent .agent-descrip p,
+.section-agent .agent-info li a,
+.section-agent .social-icon .fa,
+.footer-st-19 p,.footer-st-19 .recent-tweet a,
+.footer-st-19 .ft-credits a,
+.footer-st-19 .social-icon .fa{ 
+    color: #666666;
+}
+.section-banner-st-2 .banner-h1,
+.section-package-st-2 .package-title h3,
+.section-testimonials-st-5.eff-2 .textimonial-box-5 p.role span,.section-subscribe-st-8 .subscribe-content-inner h4,
+.section-title-st-8 h4,.section-product-st-8 .adventure ul li h6,
+.section-testimonials-st-8 .testimonials-content h5 span,.section-event table tbody p,
+.header-st-11 .menu li a,.section-testimonials-st-11 .testimonials-content h4
+.header-st-12 .menu li a,.section-services-st-6 .services-title h4,.footer-st-12 .btn,
+.section-package-st-4 .package-price small,.section-package-st-4 .package-price sub,
+.header-st-20 .menu li a{
+	color: #333333;
+}
+a,
+.section-blog .hover-revert:hover,
+.section-testimonials-st-2 .hover-revert:hover,
+.section-aboutus-st-2 .aboutus-title h3,
+.section-title-st-5 h1,
+.section-team-st-4 .team-name h4,
+.section-team-st-4 .team-position strong,
+.section-aboutus-st-2 .about-title,
+section-services-st-5 .services-title h4,.section-title-st-15 h3,.section-services-st-15 .services-title h4,
+.section-testimonials-st-15 .testimonial-author h4,
+.section-team-st-15 .team-name h3,.section-portolio-st-17 .portfolio-content h4,
+.section-team-st-17 .team-name h3,.section-blog-st-17 .blog-box-title h4{
+	color:#444;
+}
+
+.section-title-st-15 p,.section-services-st-15 .services-descrip p,.project-tabs li,
+.section-testimonials-st-15 .textimonial-box-msg p,
+.section-testimonials-st-15 .testimonial-author small,
+.section-blog-st-15 .blog-box-descrip p,.section-blog-st-15 .blog-box-meta li,
+.section-blog-st-15 .blog-box-meta li a,.section-team-st-15 .team-position p,
+.footer-st-15 .footer-menu li a,.footer-st-15 p,.footer-st-15 p a,.section-title-st-18 p,
+.section-aboutus-st-18 .section-content p,.section-skill .skill-descrip p,
+.section-portolio-st-18 .portfolio-content p,.section-package-st-18 .package-list li,
+.section-services-st-18 .services-descrip p,
+.section-blog-st-18 .blog-box-descrip p,
+.section-blog-st-18 .blog-box-meta li,
+.section-causes-st-21 .causes-progress-content p{
+
+	color:#777;
+
+}
+.section-partners-st-2 .partner-box .partner-box-inner {
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.06);
+}
+.section-team-st-2 .social-rounded-2 li a{
+	color:#bbbbbb;
+}
+.section-subscribe-st-6,
+.section-subscribe-st-3 {
+    background-color: #222222;
+}
+.aliceblue{
+	background-color:#f3f5fa;
+}
+
+/***********************
+
+	2 Red Skin ------- #fc283f 
+
+***********************/
+
+.red-parimary-bg,
+.section-banner-st-1 .btn-default,
+.section-banner-st-1 .btn-default:hover,
+.section-banner-st-1 .btn-default:focus,
+.section-banner-st-1 .btn-default:active,
+.section-banner-st-1 .btn-primary:hover,
+.section-banner-st-1 .btn-primary:focus,
+.section-video .btn-default,
+.section-video .btn-default:hover,
+.section-video .btn-default:focus,
+.section-video .btn-default:active,
+.section-package .btn-secondary:hover,
+.section-package .btn-secondary:focus,
+.section-package .btn-secondary:active,
+.section-subscribe-st-1 .btn-third,
+.header-st-1 button.nav-toggle{
+	background-color:#fc283f;
+}
+.red-parimary-color,
+.section-banner-st-1 .banner-h1 .text-primary-color,
+.header-st-1 .menu li a:hover,
+.header-st-1 .menu li a:focus,
+.header-st-1 .menu li a:active,
+.section-banner-st-1 .btn-primary,
+.play-icon i,
+.section-title-st-1 h1 span.text-parimary-color,
+.package-upper,
+.section-package .btn-secondary,
+.section-subscribe-st-1 .title-main-color,
+.footer-st-1 .social-default li a:hover,
+.footer-st-1 .ft-credit-row p a:hover{
+	color:#fc283f;
+}
+.red-parimary-border,
+.header-st-1 .menu li a:hover:after,
+.header-st-1 .menu li a:focus:after,
+.header-st-1 .menu li a:active:after,
+.section-services-st-1 .service-box-inner:hover,
+.section-package .btn-secondary{
+	border-color:#fc283f;
+}
+.masornay-thumb .overlay-bg-main,
+.section-team-st-1 .overlay-bg-main{
+	background-color:rgba(252, 40, 63, 0.95);
+}
+
+.section-team-st-9 .overlay-bg-main{ background-color: rgba(247, 31, 82, 0.80) }
+
+.section-team-st-1 .social-rounded li a {
+    background-color: rgba(255,255,255,0.10);
+}
+.section-team-st-1 .social-rounded li a:hover{
+	color:#FC283F;
+}
+
+
+.header-st-8 button.nav-toggle{ background-color: #01c1f0; }
+.header-st-9 button.nav-toggle{ background-color: #f71f52; }
+.header-st-10 button.nav-toggle{ background-color: #fee600; }
+.header-st-11 button.nav-toggle{ background-color: #c32026; }
+.header-st-12 button.nav-toggle{ background-color: #2a89cd; }
+.header-st-13 button.nav-toggle{ background-color: #03a9f4; }
+.header-st-15 button.nav-toggle{ background-color: #f7c51e; }
+.header-st-16 button.nav-toggle{ background-color: #ef114c; }
+.header-st-17 button.nav-toggle{ background-color: #cb0f06; }
+.header-st-18 button.nav-toggle{ background-color: #ff6600; }
+.header-st-19 button.nav-toggle{ background-color: #f55691; }
+.header-st-20 button.nav-toggle{ background-color: #c32026; }
+.header-st-21 button.nav-toggle{ background-color: #ef2c3d; }
+.header-st-22 button.nav-toggle{ background-color: #8bc34a; }
+.header-st-23 button.nav-toggle{ background-color: #f4bc16; }
+.header-st-24 button.nav-toggle{ background-color: #fe4967; }
+.header-st-25 button.nav-toggle{ background-color: #82b441; }
+
+
+
+.header-st-8 button.nav-toggle .fa,.header-st-9 button.nav-toggle .fa,
+.header-st-10 button.nav-toggle .fa,
+.header-st-11 button.nav-toggle .fa,
+.header-st-12 button.nav-toggle .fa,
+.header-st-13 button.nav-toggle .fa,
+.header-st-15 button.nav-toggle .fa,
+.header-st-16 button.nav-toggle .fa,
+.header-st-17 button.nav-toggle .fa,
+.header-st-18 button.nav-toggle .fa,
+.header-st-19 button.nav-toggle .fa,
+.header-st-20 button.nav-toggle .fa,
+.header-st-21 button.nav-toggle .fa,
+.header-st-22 button.nav-toggle .fa,
+.header-st-23 button.nav-toggle .fa,
+.header-st-24 button.nav-toggle .fa,
+.header-st-25 button.nav-toggle .fa{ color: #fff; }
+
+/***********************
+
+	3 Green & Blue Skin ------- #5cae4a & #3e5c92
+
+***********************/
+
+.g-b-primary-bg,
+.section-banner-st-2 .btn-default,
+.section-banner-st-2 .btn-default:hover,
+.section-banner-st-2 .btn-default:focus,
+.section-banner-st-2 .btn-default:active,
+.section-quote .btn-default,
+.section-quote  .btn-default:hover,
+.section-quote  .btn-default:focus,
+.section-quote .btn-default:active,
+.section-banner-st-2 .btn-primary:hover,
+.section-banner-st-2 .btn-primary:focus,
+.section-banner-st-2 .btn-primary:active,
+.section-quote .btn-primary-revert,
+.section-subscribe-st-2 .btn-third,
+.header-st-2 button.nav-toggle{
+	background-color:#5cae4a;
+}
+.g-b-primary-color,
+.header-st-2 .menu li a:hover,
+.header-st-2 .menu li a:focus,
+.header-st-1 .menu li a:active,
+.section-banner-st-2 .banner-h1 .text-primary-color,
+.section-banner-st-2 .btn-primary,
+.section-quote .btn-primary-revert:hover,
+.section-quote .btn-primary-revert:focus,
+.section-quote .btn-primary-revert:active,
+.section-blog .hover-revert,
+.section-testimonials-st-2 .hover-revert,
+.footer-st-1 a:hover{
+	color:#5cae4a;
+}
+.g-b-primary-border,
+.header-st-2 .menu li a:hover:after,
+.header-st-2 .menu li a:focus:after,
+.header-st-1 .menu li a:active:after{
+	border-color:#5cae4a;
+}
+.g-b-secondary-bg{
+	background-color:#3e5c92;
+}
+.g-b-secondary-color{
+	color:#3e5c92;
+}
+.form-style-2 .form-control, .form-style-2 textarea.form-control {
+    background-color: rgba(255, 255, 255, 0.10);
+    border-color: rgba(255, 255, 255, 0.10);
+}
+.form-style-2 .form-control, .form-style-2 textarea.form-control ,
+.form-style-2 .form-control::-webkit-input-placeholder,
+.section-agent .form-control::-webkit-input-placeholder,
+.section-author .form-control::-webkit-input-placeholder,
+.section-subscribe-st-22 .form-control::-webkit-input-placeholder{
+   color: #cccccc;
+}
+.section-subscribe-st-3 .subscribe-form-inner .form-control::-webkit-input-placeholder ,
+.section-subscribe-st-3 .subscribe-form-inner .form-control,
+.register-form .form-control::-webkit-input-placeholder{
+   color: #cccccc;
+}
+.form-style-2 .form-control::-moz-placeholder,
+.section-subscribe-st-3 .subscribe-form-inner .form-style-2 .form-control::-moz-placeholder,
+.section-subscribe-st-11 .form-control::-moz-placeholder,
+.register-form .form-control::-moz-placeholder,
+.section-agent .form-control::-moz-placeholder ,
+.section-author .form-control::-moz-placeholder,
+.section-subscribe-st-22 .form-control::-moz-placeholder{
+   color: #cccccc;
+}
+.form-style-2 .form-control:-ms-input-placeholder,
+.section-subscribe-st-3 .subscribe-form-inner .form-style-2 .form-control:-ms-input-placeholder {
+   color: #cccccc;
+}
+
+.section-contact-st-20 .form-control::-webkit-input-placeholder,
+.com-soon-form .text-field::-webkit-input-placeholder{
+	color:#fff;
+}
+
+.section-contact-st-20 .form-control::-moz-placeholder,
+.com-soon-form .text-field::-moz-placeholder{
+	color:#fff;
+}
+
+.footer-st-16 .footer-subscribe-form .form-control::-webkit-input-placeholder{
+	
+	color:#636363;
+
+}
+
+.footer-st-16 .footer-subscribe-form .form-control::-moz-placeholder{
+	
+	color:#636363;
+	
+}
+
+.footer-st-22 .footer-subscribe-form .form-control::-webkit-input-placeholder{
+	
+	color:#747474;
+
+}
+
+.footer-st-22 .footer-subscribe-form .form-control::-moz-placeholder{
+	
+	color:#747474;
+	
+}
+
+
+
+.section-contact-st-21 .form-control::-webkit-input-placeholder,
+.section-contact-st-25 .form-control::-webkit-input-placeholder{
+	color:#bbb;
+}
+
+.section-contact-st-21 .form-control::-moz-placeholder,
+.section-contact-st-25 .form-control::-moz-placeholder{ color: #bbb; }
+
+.section-subscribe-st-25 .form-control::-webkit-input-placeholder{ color: #e3e3e3; }
+.section-subscribe-st-25 .form-control::-moz-placeholder{ color: #e3e3e3; }
+
+.section-contact-st-22 .form-control::-webkit-input-placeholder{
+	color:#999;
+}
+
+.section-contact-st-22 .form-control::-moz-placeholder{ 
+	color: #999; 
+}
+
+.section-contact-st-22 .form-control:focus::-webkit-input-placeholder{
+	color:#8cc34b;
+}
+.section-contact-st-22 .form-control:focus::-moz-placeholder{ 
+	color:#8cc34b; 
+}
+
+.footer-st-23 .footer-newsletter-form .form-control::-webkit-input-placeholder{
+	color:#888;
+}
+.footer-st-23 .footer-newsletter-form .form-control::-moz-placeholder{ 
+	color:#888; 
+}
+
+.section-subscribe-st-21 .form-control::-webkit-input-placeholder,
+.paypal-form .form-control::-webkit-input-placeholder{
+	color:#c1c1c1;
+}
+
+.section-subscribe-st-21 .form-control::-moz-placeholder,
+.paypal-form .form-control::-moz-placeholder{ color: #c1c1c1; }
+
+
+
+.skin-darksecondary-bg {
+    background-color: #2e4773;
+}
+
+
+
+
+/***********************
+
+	4 Red2 Skin ------- #e80017
+
+***********************/
+
+.red2-primary-bg,
+.section-banner-st-5 .btn-primary:hover,
+.section-banner-st-5 .btn-primary:active,
+.section-banner-st-5 .btn-primary:focus,
+.section-banner-st-5 .btn-default,
+.section-banner-st-5 .btn-default:hover,
+.section-banner-st-5 .btn-default:active,
+.section-banner-st-5 .btn-default:focus,
+.section-aboutus-st-2 .aboutus-link .btn-default,
+.section-aboutus-st-2 .aboutus-link .btn-default:hover,
+.section-aboutus-st-2 .aboutus-link .btn-default:active,
+.section-aboutus-st-2 .aboutus-link .btn-default:focus,
+.category-icon,
+.section-title-st-5 h1:after,
+.section-team-st-4 .team-social ul li a:hover,
+.form-style-3 .btn-default,
+.form-style-3 .btn-default:hover,
+.form-style-3 .btn-default:active,
+.form-style-3 .btn-default:focus,
+.bootstrap-datetimepicker-widget td.active, 
+.bootstrap-datetimepicker-widget td.active:hover,
+.bootstrap-datetimepicker-widget td span:hover,
+.bootstrap-datetimepicker-widget td.day:hover,
+.bootstrap-datetimepicker-widget td.hour:hover,
+.bootstrap-datetimepicker-widget td.minute:hover,
+.bootstrap-datetimepicker-widget td.second:hover,
+.bootstrap-datetimepicker-widget td span.active,
+.bootstrap-datetimepicker-widget thead tr:first-child th:hover ,
+.form-style-3 .dropdown-menu > li > a:hover,
+.form-style-3 .dropdown-menu > li > a:active,
+.form-style-3 .dropdown-menu > li > a:focus,
+.form-style-3 .dropdown-menu > li.selected > a:hover,
+.section-subscribe-st-5 .btn-third,
+.section-subscribe-st-5 .btn-third:hover,
+.section-subscribe-st-5 .btn-third:active,
+.section-subscribe-st-5 .btn-third:focus,
+.footer-st-5,
+.header-st-5 button.nav-toggle{
+	background-color:#e80017;
+}
+.red2-primary-color,
+.header-st-5 .menu li a:hover,
+.header-st-5 .menu li a:focus,
+.header-st-5 .menu li a:active,
+.section-banner-st-5 .btn-primary,
+.section-team-st-4 .team-social ul li a,
+.section-package-st-2 .package-upper,
+.footer-st-5 .social-icon a:hover{
+	color:#e80017;
+}
+.red2-primary-border,
+.header-st-5 .menu li a:hover:after,
+.header-st-5 .menu li a:focus:after,
+.header-st-5 .menu li a:active:after,
+.bootstrap-datetimepicker-widget td.today:before{
+	border-color:#e80017;
+}
+
+/***********************
+
+	5 Pink Skin ------- #f00a77
+
+***********************/
+
+.pink-primary-bg,
+.section-team-st-2 .social-rounded-2 li a:hover,
+.section-calout-st-1 .btn-primary,
+.section-subscribe-st-3 .btn-third,
+.header-st-3 button.nav-toggle{
+	background-color:#f00a77;
+}
+.pink-primary-color,
+.section-team-st-2 a:hover,
+.section-calout-st-1 .btn-primary:hover,
+.section-calout-st-1 .btn-primary:focus,
+.section-calout-st-1 .btn-primary:active,
+.section-subscribe-st-3 .btn-third:hover,
+.section-subscribe-st-3 .btn-third:focus,
+.section-subscribe-st-3 .btn-third:active,
+.section-testimonials-st-3  p,
+.footer-st-3 p a:hover,
+.footer-st-3 .social-default li a:hover,
+.header-st-3 .menu li a:hover,
+.header-st-3 .menu li a:focus,
+.header-st-3 .menu li a:active{
+	color:#f00a77;
+}
+.section-gallery-st-2 .masornay-thumb .overlay-bg-main{
+	background-color:rgba(240, 10, 119, 0.9);
+}	
+.section-testimonials-st-3 .textimonial-box-thumb img,
+.pink-parimary-border,
+.header-st-3 .menu li a:hover:after,
+.header-st-3 .menu li a:focus:after,
+.header-st-3 .menu li a:active:after{
+	border-color:#f00a77;
+}
+
+/***********************
+
+	6 Turquoise Skin ------- #3b90cd
+
+***********************/
+
+.turq-primary-bg,
+.section-banner-st-4 .btn-primary:hover,
+.section-banner-st-4 .btn-primary:focus,
+.section-banner-st-4 .btn-primary:active,
+.subscribe-st-4-inner .subscribe-form-inner .btn-third:hover,
+.subscribe-st-4-inner .subscribe-form-inner .btn-third:focus,
+.subscribe-st-4-inner .subscribe-form-inner .btn-third:active,
+.header-st-4 button.nav-toggle{
+	background-color:#3b90cd;
+}
+.turq-primary-color,
+.header-st-4 .menu li a:hover,
+.header-st-4 .menu li a:focus,
+.header-st-4 .menu li a:active,
+.section-testimonials-st-4 .testimonial-box-position p,
+.section-team-st-3 .team-position h5,
+.subscribe-st-4-inner .subscribe-form-inner .btn-third{
+	color:#3b90cd;
+}
+.turq-primary-border,
+.header-st-4 .menu li a:hover:after,
+.header-st-4 .menu li a:focus:after,
+.header-st-4 .menu li a:active:after,
+.section-banner-st-4 .btn-primary:hover,
+.section-banner-st-4 .btn-primary:focus,
+.section-banner-st-4 .btn-primary:active,
+.section-services-st-4  .services-icon{
+	border-color:#3b90cd;
+}
+.section-banner-st-4 .btn-primary{
+	border-color:#fff;
+}
+
+
+/* header state 9 */
+
+.header-st-9 .menu li a:hover,
+.header-st-9 .menu li a:focus,
+.header-st-9 .menu li a:active{
+	
+	color:#f71f52;
+}
+
+.header-st-9 .menu li a:hover:after{
+
+	border-color:#f71f52;
+
+}
+
+.header-st-9 .menu li a:hover,
+.header-st-9 .menu li a:focus{ 
+	color:#f71f52; 
+}
+
+.pink-bg{ background-color: #f71f52; }
+
+
+/***********************
+
+	7 LightGreen Skin ------- #82b441
+
+***********************/
+
+.lgreen-primary-bg,
+.section-banner-st-6 .btn-default:hover,
+.section-banner-st-6 .btn-default:focus,
+.section-banner-st-6 .btn-default:active,
+.section-banner-st-6 .btn-primary,
+.featuerlists li span,
+.section-subscribe-st-6 .btn-third,
+.section-subscribe-st-6 .btn-third:hover,
+.section-subscribe-st-6 .btn-third:active,
+.section-subscribe-st-6 .btn-third:focus,
+.header-st-6 .menu li a.btn-default,
+.header-st-6 .menu li a.btn-default:active,
+.header-st-6 .menu li a.btn-default:hover,
+.header-st-6 .menu li a.btn-default:focus,
+.header-st-6 button.nav-toggle{
+	background-color:#82b441;
+}
+.lgreen-primary-color,
+.header-st-6 .menu li a:hover,
+.header-st-6 .menu li a:focus,
+.header-st-6 .menu li a:active,
+.section-testimonials-st-5 p.role,
+.footer-st-6 .social-default li a:hover,
+.footer-st-6 p a:hover{
+	color:#82b441;
+}
+.lgreen-primary-border,
+.section-banner-st-6 .btn-default:hover,
+.section-banner-st-6 .btn-default:focus,
+.section-banner-st-6 .btn-default:active,
+.section-banner-st-6 .btn-primary,
+.header-st-6 .menu li a:hover:after,
+.header-st-6 .menu li a:focus:after,
+.header-st-6 .menu li a:active:after{
+	border-color:#82b441;
+}
+.lightalice,.section-services-st-5 .service-box-inner,
+.section-testimonials-st-12 .col-md-6:last-child,.section-blog-st-1,
+.section-product-st-12,.section-calout-st-19 .callout-box,
+.section-blog-st-19{
+	background-color:#f9fafc;
+}
+
+/***********************
+
+	8 Purple & Orange Skin ------- #2f1f66 & #ff8500
+
+***********************/
+	
+.lpurple-primary-bg,
+.section-aboutus-st-4 .aboutuslists li span{
+	background-color:#2f1f66;
+}	
+	
+.lpurple-primary-color
+	{color:#2f1f66;}
+	
+.lorange-orange-bg,
+.section-aboutus-st-4 .aboutuslists li:hover span,
+.travel-city,
+.header-st-7 button.nav-toggle
+	{background-color:#ff8500;}	
+
+.lpurple-orange-color,
+.travel-price  span,
+.travel-title  span,
+.section-testimonials-st-5.eff-2 .textimonial-box-5 p.role,
+.footer-st-7 .social-icon li a:hover,.footer-st-7 .social-icon li a:focus
+	{color:#ff8500;}
+	
+ .purple,.section-banner-st-11 .banner-h1 span{ color:#c32026;}
+ .color1{ color:#c72b26; }
+ .color2{ color:#cbd215; }
+
+.section-repair,.get-product-st-1{ background-color: #2a89cd;}
+
+.section-services-st-7 .icon1 .fa{ background-color: #f04d4e; }
+.section-services-st-7 .icon2 .fa{ background-color: #00bff3; }
+.section-services-st-7 .icon3 .fa{ background-color: #ccdb38; }
+.section-services-st-7 .icon4 .fa{ background-color: #fecc17; }
+.section-services-st-7 .icon5 .fa{ background-color: #6739b6; }
+.section-services-st-7 .icon6 .fa{ background-color: #9c26b0; }
+.section-services-st-7 .icon7 .fa{ background-color: #e91d62; }
+.section-services-st-7 .icon8 .fa{ background-color: #ff9700; }
+
+
+.header-st-16 .menu li a,
+.register-title h4,
+.section-title-st-16 h2,
+.section-services-st-16 .services-title h4,
+.section-video-st-16 .professional-skill-title h5,
+.section-team-st-16 .team-name h4,
+.section-project-st-16 .project-title h4{ color:#233354;}
+.header-st-16 .menu li a:hover{ color:#ef114c; }
+
+
+.header-st-17 .top-info .dropdown-menu > li > a:hover,
+.header-st-17 .top-info .dropdown-menu > li > a:focus,
+.header-st-17 .search-box .btn,.section-partners-st-17{ background-color: #cb0f06;}
+
+.header-st-17 .menu li a:hover,.section-aboutus-st-17 .aboutus-title span,.section-blog-st-17 .blog-box-title h4 a:hover{ color: #cb0f06; }
+
+
+.header-st-18 .menu li a:hover,
+.section-aboutus-st-18 .aboutus-icon .fa,
+.section-team-st-18 .team-position p,
+.section-skill .skill-descrip span,
+.section-twitter-st-18 .twitter-descrip a,
+.section-contact-st-18 .contact-details li a:hover,
+.footer-st-18 .ft-credits a:hover{ color:#ff6600;}
+
+.section-title-st-18 h2,.section-aboutus-st-18 .aboutus-title h4,
+.section-team-st-18 .team-name h4,
+.section-skill .skill-title h3,
+.section-portolio-st-18 .portfolio-content h4,
+.section-portolio-st-18 .project-tabs li,
+.section-package-st-18 .package-title h2,
+.section-services-st-18 .services-title h4,
+.section-twitter-st-18 .twitter-descrip a:hover,
+.section-contact-st-18 h3{ color:#3a1469;}
+
+
+.header-st-19 .menu li a:hover,
+.section-services-st-19 .services-title h3,
+.section-calout-st-19 span,.section-rev-slider-st-3 .ban-callout-price h3,
+.section-agent .agent-position p,
+.section-agent .agent-info .fa,
+.section-agent .social-icon .fa:hover,
+.section-blog-st-19 .blog-box-title a:hover,
+.section-blog-st-19 .blog-box-meta a:hover,
+.footer-st-19 .recent-tweet a:hover,
+.footer-st-19 .ft-credits a:hover,
+.footer-st-19 .social-icon .fa:hover{ color:#f55691; }
+
+
+.header-st-23 .top-info li,.header-st-23 .menu li a,
+.section-services-st-23 p,.section-title-st-23 p,
+.section-blog-st-23 .blog-box-meta li a,
+.section-blog-st-23 .blog-box-descrip p,
+.footer-st-23 .ft-credits,.footer-st-23 .ft-credits a{ color: #888; }
+.header-st-23 .top-info li a,.header-st-23 .menu li a:hover,
+.section-rev-slider-st-6 .banner-h1,.section-title-st-23 h2 span,
+.footer-st-23 .social-icon .fa:hover,
+.footer-st-23 .ft-credits a:hover{ color:#f4bc16; }
+
+
+.bg-f04d4e{ background-color: #f04d4e; }
+.bg-8cc34b{ background-color: #8cc34b; }
+.bg-03afff{ background-color: #03afff; }
+

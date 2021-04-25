@@ -1,0 +1,539 @@
+	/* Unisans */
+@font-face{
+	font-family:'unisans';
+	font-style:normal;
+	font-weight:800;
+	src:url(../fonts/unisans/uni-sans-heavy.otf) format("opentype");	
+}
+@font-face{
+	font-family:'unisans';
+	font-style:normal;
+	font-weight:100;
+	src:url(../fonts/unisans/uni-sans-thin.otf) format("opentype");
+}
+.font-unisans,
+h1,h1 a,.h1,.h1 a,
+h2,h2 a,.h2,.h2 a,
+h3,h3 a,.h3,.h3 a,
+h4,h4 a,.h4,.h4 a,
+h5,h5 a,.h5,.h5 a,
+h6,h6 a,.h6,.h6 a{
+	font-family:'unisans';
+}
+	/* Lato */
+@font-face{
+	font-family:'lato';
+	font-style:normal;
+	font-weight:400;
+	src:url(../fonts/lato/Lato-Regular.ttf) format("truetype");
+}
+@font-face{
+	font-family:'lato';
+	font-style:normal;
+	font-weight:100;
+	src:url(../fonts/lato/Lato-Light.ttf) format("truetype");
+}
+@font-face{
+	font-family:'lato';
+	font-style:normal;
+	font-weight:700;
+	src:url(../fonts/lato/Lato-Bold.ttf) format("truetype");
+}
+@font-face{
+	font-family:'lato-black';
+	font-style:normal;
+	font-weight:400;
+	src:url(../fonts/lato/Lato-Black.ttf) format("truetype");
+}
+@font-face{
+	font-family:'lato-italic';
+	font-style:normal;
+	font-weight:400;
+	src:url(../fonts/lato/Lato-Italic.ttf) format("truetype");
+}
+.font-lato,
+.section-banner-st-3 p,
+.section-banner-st-4 p,
+.section-services-st-4  .services-title h4,
+.section-title-st-4 p,
+.section-team-st-2 p,
+.section-team-st-3 .team-name h4,
+.section-calout-st-1 .callout-text p,
+.section-testimonials-st-3  blockquote p,
+.section-testimonials-st-4 .testimonial-box-position h4,
+.section-testimonials-st-4 .testimonial-box-position p,
+.section-subscribe-st-3 .subscribe-content-inner p,
+.subscribe-st-4-inner .subscribe-content-inner h3,
+.subscribe-st-4-inner .subscribe-form-inner .btn-third,
+.knowustext p,.section-subscribe-st-11 .form-control,
+.header-st-15 .menu li a,.section-title-st-15 p,
+.section-services-st-15 .services-descrip p,.project-content h4,
+.project-content .btn,.project-tabs li,.section-testimonials-st-15 .textimonial-box-msg p,
+.section-testimonials-st-15 .testimonial-author small,
+.get-product-st-15 p,.section-blog-st-15 .blog-box-descrip p,
+.section-blog-st-15 .blog-box-meta li,
+.section-team-st-15 .team-position p,
+.footer-st-15 .footer-menu li a,.footer-st-15 p,
+.header-st-17 .top-info li,.header-st-17 .top-info li a,
+.section-services-st-17 .services-descrip p,.section-aboutus-st-17 .aboutus-descrip p,.section-title-st-17 p,
+.section-portolio-st-17 .portfolio-content p,.section-team-st-17 .team-position p,
+.section-blog-st-17 .blog-box-meta li,.section-blog-st-17 .blog-box-descrip p,
+.section-countup .counter,.section-countup .countup-title h4,
+.section-testimonials-st-17 .role,.footer-st-17 p,
+.footer-st-17 a,.section-aboutus-st-17 .professional-skill-title h5,
+.section-aboutus-st-17 .progress-bar span,
+.section-banner-st-21 p,.section-calout-st-21 .progress-content p,
+.section-countup-st-21 .countup-title h5,
+.section-testimonials-st-23 .testimonial-author h5,
+.section-com-soon-st-2 h2,.section-com-soon-st-2 p{
+	font-family:'lato';
+}
+.font-lato-black,
+.section-banner-st-4 .banner-h1,
+.section-title-st-4 h1,.get-product-st-15 .btn,
+.section-countup-st-18 .counter,
+.section-countup-st-18 .countup-title h5,
+.com-soon-form h3{
+	font-family:'lato-black';
+}
+.font-lato-italic,
+.section-team-st-3 .team-position h5,
+.section-testimonials-st-4 .testimonial-box-position p,
+.section-testimonials-st-4  blockquote p,.section-testimonials-st-17 .textimonial-box-msg p,
+.section-testimonials-st-21 .testimonial-box-position p,
+.section-testimonials-st-23 .testimonial-author span{
+	font-family:'lato-italic';
+}
+	/* Oswald */
+@font-face{
+	font-family:'oswald';
+	font-style:normal;
+	font-weight:400;
+	src:url(../fonts/oswald/Oswald-Regular.ttf) format("truetype");
+}
+@font-face{
+	font-family:'oswald';
+	font-style:normal;
+	font-weight:100;
+	src:url(../fonts/oswald/Oswald-Light.ttf) format("truetype");
+}
+@font-face{
+	font-family:'oswald';
+	font-style:normal;
+	font-weight:700;
+	src:url(../fonts/oswald/Oswald-Bold.ttf) format("truetype");
+}
+.font-oswald,
+.section-banner-st-5 .banner-h1,
+.section-banner-st-5 .banner-h2,
+.section-aboutus-st-2 .aboutus-title h3,
+.section-title-st-5 h1,
+.section-product-st-2 .product-title h4,
+.section-team-st-4 .team-name h4,
+.section-package-st-2 .package-title h3,
+.section-package-st-2 .package-price h1,
+.section-subscribe-st-5 .subscribe-content-inner h3,.btn-18.btn-default,
+.section-banner-st-18 .banner-h1,.section-title-st-18 h2,
+.section-aboutus-st-18 .aboutus-title h4,
+.section-team-st-18 .team-name h4,.section-skill .skill-title h3,
+.section-video-st-18 .video-title h2,
+.section-video-st-18 .video-title h4,
+.section-portolio-st-18 .portfolio-content h4,
+.section-portolio-st-18 .portfolio-icons h3,
+.section-portolio-st-18 .project-tabs li,
+.section-package-st-18 .package-box-inner h2,
+.section-services-st-18 .services-title h4,
+.section-twitter-st-18 .twitter-descrip p,
+.section-twitter-st-18 .twitter-date h4,
+.section-blog-st-18 .blog-box-title a,
+.section-contact-st-18 h3,.section-banner-st-18 h2,
+.header-st-22 .menu li a,.section-rev-slider-st-2 h2,
+.section-rev-slider-st-2 .banner-h1,.section-services-st-22 h4,
+.section-video-st-22 h3,.section-title-st-22 h2,.section-title-st-22 h3,
+.section-blog-st-22 .blog-box-title a,.section-calout-st-22 h3,.section-testimonials-st-22 .testimonial-author h6,
+.footer-st-22 .footer-widget-title h4,
+.footer-st-22 .footer-subscribe-form .send-btn,
+.section-package-st-30 .package-title h3,
+.section-package-st-30 .package-price h2,
+.section-package-st-30 .btn{
+	font-family:'oswald';
+}
+	/* RobotoSlab */
+@font-face{
+	font-family:'robotoSlab';
+	font-style:normal;
+	font-weight:400;
+	src:url(../fonts/roboto-slab/RobotoSlab-Regular.ttf) format("truetype");
+}	
+.font-robotoSlab,
+.section-product-st-2 .product-title p,
+.section-team-st-4 .team-position strong,
+.section-team-st-4 .team-descrip p,
+.bootstrap-select.btn-group .dropdown-toggle .filter-option,
+.form-style-3 input,
+.section-subscribe-st-5 .subscribe-content-inner p{
+	font-family:'robotoSlab';
+}
+	/* Montserrat */
+@font-face{
+	font-family:'montserrat';
+	font-style:normal;
+	font-weight:400;
+	src:url(../fonts/montserrat/Montserrat-Regular.ttf) format("truetype");
+}
+@font-face{
+	font-family:'montserrat';
+	font-style:normal;
+	font-weight:700;
+	src:url(../fonts/montserrat/Montserrat-Bold.ttf) format("truetype");
+}
+.font-montserrat,
+p,body,.btn,
+.header-st-8 .menu li a,.header-st-6 .menu li a.btn-default,
+.section-banner-st-3 .banner-h1,
+.section-banner-st-3 .banner-h2,
+.section-banner-st-2 .banner-h2,
+.section-banner-st-6 .banner-h1,
+.section-banner-st-6 .btn-default,
+.section-banner-st-6 .btn-primary,
+.section-banner-st-8 .banner-h1,
+.section-services-st-2 .service-box .services-title h4,
+.section-aboutus h3,
+.section-aboutus-st-3 .about-title,
+.getapptext-holder h3,
+.section-title-st-6 h1,
+.section-team-st-2 .team-name h4,
+.callout-text h1,
+.section-quote-title h3,
+.blog-box-title h4,
+.blog-box-title h4 a,
+.section-subscribe-st-2 .subscribe-content-inner h3,
+.section-subscribe-st-3 .subscribe-content-inner h3,
+.section-subscribe-st-6 .subscribe-content-inner h3,
+.section-subscribe-st-8 .subscribe-content-inner h3,
+.section-aboutus-st-4 .aboutus-title h3,
+.section-title-st-7  h3,
+.section-services-st-3 .services-title h4,
+.travel-title h4,
+.section-banner-st-7 h1,
+.section-title-st-2 h1,
+.section-title-st-8 h4,
+.section-product-st-8 .adventure ul li h6,.get_product h2,.section-video-st-1 h4,
+.footer-st-8 p,
+.section-package-st-3 .package-price h2 small,
+.section-event table thead th,
+.section-banner-st-9 .banner-h1,.countdown .countdown-box span,.section-title-st-9 h4,
+.section-team-st-9 h6,.section-event .event-speaker h4,.section-package-st-3 .package-price h2,
+.section-video-st-2 h4,.section-rev-slider-st-4 *,.section-delivery h6,
+.section-title-st-10 h4,.section-subscribe-st-10 h2,
+.footer-st-9 p,.ft-credit-row p,.section-banner-st-11 .banner-h1,.section-title-st-11 h4,
+.professional-info-box ul li span,.professional-skill-title h5,.timeline-items h4,.section-product-st-11 h5,
+.contact-box h2,.section-testimonials-st-11 .testimonials-content h4,.section-banner-st-13 h2,
+.section-banner-st-13 .banner-h1,.section-subscribe-st-11 h6,
+.section-services-st-7 .services-title h4,.section-title-st-13 h3,
+.section-product-st-12 .product-title h3,.section-video-st-3 h2,.section-video-st-3 .watch-video h5,
+.section-package-st-4 .package-price h2,.section-testimonials-st-13 .testimonial-title h3,
+.register-title h4,.section-title-st-16 h2,.section-services-st-16 .services-title h4,
+.section-team-st-16 .team-name h4,.section-project-st-16 .project-title h4,
+.section-testimonials-st-16 .testimonial-title h3,.section-banner-st-17 h3,
+.section-banner-st-17 .banner-h1,.section-services-st-17 .services-title h4,
+.section-aboutus-st-17 .aboutus-title h2,.section-aboutus-st-17 .aboutus-title span,
+.section-title-st-17 h2,
+.section-portolio-st-17 .portfolio-content h4,.section-team-st-17 .team-name h3,
+.section-blog-st-17 .blog-box-title h4,.footer-st-17 h4,
+.section-services-st-19 .services-title h3,.section-calout-st-19 h3,
+.section-testimonials-st-19 .testimonial-author h5,
+.section-blog-st-19 .blog-box-title a,
+.footer-st-19 .ft-credits,.section-rev-slider-st-3 .ban-callout-box h3,
+.section-banner-st-20 .banner-h1,.section-title-st-20 h2,
+.section-author .author-name h3,.section-author .author-form h4,
+.section-aboutbook .aboutbook-title h3,
+.section-package-st-20 .package-title h4,
+.section-package-st-20 .package-price h2,
+.section-subscribe-st-21 .subscribe-content-inner p,
+.section-blog-st-21 .btn,.section-countup-st-21 .countup-text .btn,
+.section-contact-st-21 .btn,.section-subscribe-st-21 .btn,
+.header-st-23 .top-info li a,.section-rev-slider-st-6 h2,
+.section-rev-slider-st-6 .banner-h1,.section-calout-st-23 h3,
+.section-services-st-23 h4,.section-title-st-23 h2,
+.section-countup-st-23 .counter,.section-countup-st-23 .countup-title h5,
+.section-calout-st-23 .btn,.section-product-st-23 h3,
+.section-product-st-23 p,.section-headphone .headphone-price,.section-headphone h2,
+.section-banner-st-25 .banner-h1,.section-title-st-25 h2,
+.section-features-st-2 .features-title h4,
+.section-countup-st-25 .counter,.section-testimonials-st-25 .testimonial-author h5,
+.section-video-st-25 h2,.section-package-st-25 .package-price h2,
+.section-package-st-25 .package-title h4,.section-contact-st-25 .contact-descrip h5,
+.section-subscribe-st-25 h2,.section-404 h1,.section-404 h2,
+.section-com-soon h1,.paypal-form-title h4,.section-paypal .paypal-title h1,
+.footer-st-16 .footer-widget-title h5,
+.footer-st-16 .footer-recent-post-date p,.footer-st-16 .footer-intro a,
+.footer-st-16 .footer-tweet-date p,
+.footer-st-16 .footer-subscribe-title h5,
+.footer-st-16 .footer-subscribe-form .send-btn,
+.footer-st-16 .footer-subscribe-form .form-control,
+.section-rev-slider-st-1 h3,
+.section-rev-slider-st-1 h1,.footer-st-10 h5,.footer-st-10 h6,
+.footer-st-23 h4,.footer-st-23 .footer-menu li a{
+	font-family:'montserrat';
+}
+	/* Lora */
+@font-face{
+	font-family:'lora';
+	font-style:normal;
+	font-weight:700;
+	src:url(../fonts/lora/Lora-Bold.ttf) format("truetype");
+}
+@font-face{
+	font-family:'lora';
+	font-style:normal;
+	font-weight:400;
+	src:url(../fonts/lora/Lora-Regular.ttf) format("truetype");
+}
+@font-face{
+	font-family:'lora-italic';
+	font-style:italic;
+	font-weight:400;
+	src:url(../fonts/lora/Lora-Italic.ttf) format("truetype");
+}	
+.font-lora,
+.section-banner-st-6 p,
+.section-aboutus-st-3 p,
+.featuerlists,
+.featureapp-descrip p,
+.getapptext-holder  p,
+.section-testimonials-st-5  blockquote p,
+.section-subscribe-st-6 .subscribe-content-inner p,.section-subscribe-st-6  .subscribe-form-inner .form-control ,.section-subscribe-st-8  .subscribe-form-inner .form-control ,
+.section-aboutus-st-4 p,
+.section-title-st-7 p,.section-title-st-7 p
+.section-testimonials-st-5.eff-2 .textimonial-box-5 p
+,.section-banner-st-8 p,.section-subscribe-st-8 .subscribe-content-inner p,
+.section-title-st-8 p,.section-product-st-8 .adventure ul li p,.section-video-st-1 p,
+.section-testimonials-st-8 .testimonials-content p,
+.section-testimonials-st-8 .testimonials-content h5,
+.section-title-st-9 p,.section-team-st-9 .team-position p,.section-event p,.section-package-st-3 .package-title p,
+.section-package-st-3 .package-inner-content p,.section-video-st-2 p,
+.footer-st-6 p,.contact-box .form-control,.section-banner-st-11 .banner-h1 small,.section-title-st-11 p,
+.professional-info-box ul li,.contact-box p,.timeline-content p,.section-testimonials-st-11 .testimonials-content small,.section-testimonials-st-11 .testimonials-content p,
+.top-info li a,.header-st-13 .menu li a,.cart-box .dropdown-menu li,
+.section-banner-st-13 p,.section-services-st-7 .services-descrip p,.section-title-st-13 p,
+.section-product-st-12 .product-content p,.section-product-st-12 .product-price,
+.section-package-st-4 .package-price small,.package-list,.footer-menu li a,.footer-st-13 p,
+.section-testimonials-st-13 p,.header-st-16 .menu li a,
+.register-form .form-control,.section-title-st-16 p,
+.section-services-st-16 .services-descrip p,.section-video-st-16 .professional-skill-title h5,
+.section-project-st-16 .project-descrip p,.footer-st-16 p,
+.section-testimonials-st-16 p,.section-rev-slider-st-3 .banner-h1,
+.section-rev-slider-st-3 h2,.section-rev-slider-st-3 p,
+.section-services-st-19 .services-title small,
+.section-video-st-19 .video-title h2,.section-video-st-19 .video-title h4,
+.section-video-st-19 .video-descrip p,.section-title-st-19 h2,
+.section-title-st-19 p,.section-agent .agent-box h3,
+.section-agent .agent-content p,.section-agent .agent-info li,
+.section-agent .form-control,.section-blog-st-19 .blog-box-descrip p,
+.section-blog-st-19 .blog-box-meta a,.footer-st-19 h6,
+.footer-st-19 p,.footer-st-19 .recent-tweet a,
+.section-rev-slider-st-3 .ban-callout-box p,.section-banner-st-20 h3,
+.section-title-st-20 p,.section-author .author-content p,
+.section-author .author-info li,.section-author .form-control,
+.section-aboutbook .aboutbook-descrip p,
+.section-testimonials-st-20 .textimonial-box-msg p,
+.section-testimonials-st-20 .testimonial-author h5,
+.footer-st-20 p,.section-rev-slider-st-2 p,.section-services-st-22 p,
+.section-video-st-22 p,.section-title-st-22 p,
+.section-blog-st-22 .blog-box-meta li,
+.section-testimonials-st-22 .testimonial-descrip p,
+.section-headphone .headphone-title h3,
+.footer-st-24 p,.section-banner-st-25 p,.section-title-st-25 p,
+.section-features-st-2 .features-descrip p,
+.section-countup-st-25 .countup-title h5,
+.section-testimonials-st-25 .testimonial-author p,
+.section-video-st-25 p,.section-contact-st-25 .contact-content p,
+.footer-st-25 .copyright p,.section-paypal .paypal-descrip p,
+.footer-st-16 .footer-recent-post-title a,
+.footer-st-16 .footer-follow-us a,
+.section-rev-slider-st-1 p,.footer-st-22 p,
+.footer-st-22 .footer-address-widget li,
+.footer-st-22 .footer-subscribe-form .form-control,
+.section-package-st-30 .package-price sup,
+.section-package-st-30 .package-price span{
+	font-family:'lora';
+}
+.font-lora-italic,
+.featureapp-title span,
+.getapptext-holder > span,
+.section-title-st-6 span,
+.aboutus-title span,
+.section-title-st-7 span,
+.get_product h2 small,.section-video-st-1 h4 small,
+.section-video-st-2 h4 small,
+.section-title-st-11 h4 small,.section-product-st-11 p,
+.section-testimonials-st-25 .testimonial-descrip p{
+	font-family:'lora-italic';
+}
+
+
+.delivery-inner-box p,.section-subscribe-st-10 .form-control,.section-subscribe-st-10 .btn,
+.section-product-st-10 .dropdown-menu a,.section-product-st-10 .product-content h6,
+.section-product-st-10 .product-content p,.section-product-st-10 .product-thumb .product-sail,
+.header-st-10 .menu .dropdown-menu li,.search-box .form-control,.btn-12,
+.section-banner-st-12 .banner-h1 small,.section-banner-st-12 p,.repair-box p,
+.section-services-st-5 .services-descrip p,.section-testimonials-st-12 small,
+.section-testimonials-st-12 p,.get-product-st-1 p,.section-services-st-6 .services-descrip p,
+.section-blog-st-1 .blog-box-meta,.section-blog-st-1 .blog-box-descrip p,
+.section-contact-st-3 .contact-content p,.contact-details ul li,.contact-form .form-control,
+.footer-st-12 .text-widgets p,.subscribe-content p,.footer-st-12 .form-control,
+.section-team-st-16 .team-position p{
+
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.header-st-12 .menu li a,.section-banner-st-12 .banner-h1,.repair-box h4,
+.section-services-st-5 .services-title h4,.section-testimonials-st-12 h3,
+.section-testimonials-st-12 h4,.get-product-st-1 h2,
+.section-services-st-6 .services-title h4,.section-blog-st-1 .blog-box-title a,
+.section-title-st-12 h2,.section-contact-st-3 .contact-content h4,
+.instagram-title h4,.subscribe-title h4,.btn-22{
+ 	
+ 	font-family: 'Oswald', sans-serif;
+
+}
+
+@font-face{
+	font-family:'raleway';
+	font-style:normal;
+	font-weight:700;
+	src:url(../fonts/raleway/Raleway-Bold.ttf) format("truetype");
+}
+@font-face{
+	font-family:'raleway';
+	font-style:normal;
+	font-weight:800;
+	src:url(../fonts/raleway/Raleway-ExtraBold.ttf) format("truetype");
+}
+@font-face{
+	font-family:'raleway';
+	font-style:normal;
+	font-weight:400;
+	src:url(../fonts/raleway/Raleway-Regular.ttf) format("truetype");
+}
+@font-face{
+	font-family:'raleway';
+	font-style:italic;
+	font-weight:400;
+	src:url(../fonts/raleway/Raleway-Italic.ttf) format("truetype");
+
+}	
+
+.btn-13,.section-rev-slider-st-5 .banner-h1,
+.section-rev-slider-st-5 h4,
+.section-rev-slider-st-5 h3,
+.section-title-st-15 h3,
+.section-services-st-15 .services-title h4,
+.section-testimonials-st-15 .testimonial-author h4,
+.get-product-st-15 h3,.section-blog-st-15 .blog-box-title h4 a,
+.section-team-st-15 .team-name h3,.register-form .btn,
+.header-st-18 .menu li a,.section-banner-st-18 h3,
+.section-banner-st-18 .btn,.section-title-st-18 p,
+.section-aboutus-st-18 .section-content p,.section-calout-st-18 .btn,
+.section-team-st-18 .team-position p,
+.section-skill .skill-descrip p,
+.section-skill .skill-btn a,
+.section-skill .progress-title h5,.section-skill .progress-bar span,
+.section-portolio-st-18 .portfolio-content p,
+.section-package-st-18 .package-list li,
+.section-services-st-18 .services-descrip p,
+.section-blog-st-18 .blog-box-descrip p,
+.section-blog-st-18 .blog-box-meta li,
+.section-contact-st-18 .contact-details li,
+.section-contact-st-18 .form-control,
+.section-contact-st-18 .btn,
+.footer-st-18 .ft-credits,.section-banner-st-18 p,
+.footer-st-23 .footer-newsletter-descrip p{ font-family:'raleway';}
+
+@font-face{
+	font-family: 'Crimson Text';
+	font-style:normal;
+	font-weight:700;
+	src:url(../fonts/crimson_text/CrimsonText-Bold.ttf) format("truetype");
+}
+@font-face{
+	font-family: 'Crimson Text';
+	font-style:italic;
+	font-weight:400;
+	src:url(../fonts/crimson_text/CrimsonText-Italic.ttf) format("truetype");
+}
+@font-face{
+	font-family: 'Crimson Text';
+	font-style:normal;
+	font-weight:400;
+	src:url(../fonts/crimson_text/CrimsonText-Roman.ttf) format("truetype");
+}
+
+.section-testimonials-st-19 .testimonials-content p,
+.section-testimonials-st-19 .role p,
+.section-portolio-st-19 h4{  
+
+	font-family: 'Crimson Text', sans-serif;
+
+}
+
+
+@font-face{
+	font-family: 'Cardo';
+	font-style:normal;
+	font-weight:400;
+	src:url(../fonts/Cardo/Cardo-Regular.ttf) format("truetype");
+}
+
+@font-face{
+	font-family: 'Cardo italic';
+	font-style:italic;
+	font-weight:400;
+	src:url(../fonts/Cardo/Cardo-Italic.ttf) format("truetype");
+}
+
+@font-face{
+	font-family: 'Cardo Bold';
+	font-style:normal;
+	font-weight:700;
+	src:url(../fonts/Cardo/Cardo-Bold.ttf) format("truetype");
+}
+
+.section-subscribe-st-21 h3,.section-causes-st-21 .causes-title h4{
+
+	font-family: 'Cardo';
+
+}
+
+.section-title-st-21 h2,.section-blog-st-21 .blog-box-title a,
+.section-testimonials-st-21 .testimonial-box-position h3,
+.section-countup-st-21 .countup-text h2,
+.section-countup-st-21 .counter,.section-contact-st-21 h2,
+.section-services-st-21 .services-title h4,
+.section-banner-st-21 .banner-h1,.section-banner-st-21 h2,
+.section-calout-st-21 h2{ 
+
+	font-family: 'Cardo Bold';
+
+}
+
+.section-testimonials-st-21 .textimonial-box-msg p{
+	
+	font-family: 'Cardo italic';
+
+}
+
+@font-face{
+	font-family: 'NexaBold';
+	font-style:normal;
+	font-weight:400;
+	src:url(../fonts/nexa/NexaBold.ttf) format("truetype");
+}
+
+.section-com-soon-st-2 span.countdown-time{ 
+
+	font-family: 'NexaBold';
+
+}
