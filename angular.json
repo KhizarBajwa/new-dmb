@@ -24,9 +24,22 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/animate.css/animate.min.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/font-awesome/css/font-awesome.css",
+              "./node_modules/slick-carousel/slick/slick.scss",
+              "./node_modules/slick-carousel/slick/slick-theme.scss",
+              "./src/assets/css/allinone_carousel.css",
+              "./src/assets/css/bootstrap-select.css",
+              "./src/assets/css/font.css",
+              "./src/assets/css/colors.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/magnific-popup/dist/jquery.magnific-popup.min.js",
+              "./node_modules/slick-carousel/slick/slick.min.js"
+            ]
           },
           "configurations": {
             "production": {

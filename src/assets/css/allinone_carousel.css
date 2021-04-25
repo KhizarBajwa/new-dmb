@@ -1,0 +1,162 @@
+/*
+skins available:
+	- sweet
+	- powerful
+	- charming
+*/
+
+/* the container */
+.allinone_carousel {
+	position:relative;
+}
+.allinone_carousel img {
+	max-width:none;
+	max-height:none;
+}
+.allinone_carousel_list {
+	margin:0;
+	padding:0;
+	list-style:none;
+	display:none;
+}
+
+.allinone_carousel .contentHolder {
+	position:relative;
+	overflow:hidden;
+}
+.mycanvas {
+	position:absolute;
+	top:8px;
+	right:10px;
+	z-index:1000;
+	display:none !important;
+}
+
+.myloader {
+	width:37px;
+	height:37px;
+	position:absolute;
+	left:49%;
+	top:49%;
+	z-index:999;
+}
+
+
+/***charming SKIN***/
+
+.allinone_carousel.charming .contentHolderUnit {
+	position:absolute;
+	/*float:left;
+	display:block;*/
+	overflow:hidden;
+	cursor: pointer;
+	width:400px;
+	box-shadow: 0px 0px 20px rgba(0,0,17,0.15);
+}
+
+
+
+.allinone_carousel.charming .elementTitle {
+	position:absolute;
+	left:0;
+	top:40px;
+	width:100%;
+	text-align:center;
+	font: bold 22px/30px 'Droid Sans', Verdana, Helvetica, sans-serif;
+	color:#FFFFFF;
+	text-transform:capitalize;
+}
+
+
+
+.allinone_carousel.charming .playOver {
+	position:absolute;
+	width:73px;
+	height:73px;
+	display:none;
+	z-index:200;
+	cursor: pointer;
+}
+
+.allinone_carousel.charming .playOver:hover {
+	display:none;
+	z-index:200;
+	cursor: pointer;
+}
+
+.allinone_carousel.charming .bannerControls {
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:101;
+	width:100%;
+}
+
+.allinone_carousel.charming .leftNav {
+	position:absolute;
+	left:5px;
+	width:47px;
+	height:47px;
+	cursor: pointer;
+}
+.allinone_carousel.charming .leftNav:hover {
+}
+.allinone_carousel.charming .rightNav {
+	position:absolute;
+	right:5px;
+	width:47px;
+	height:47px;
+	cursor: pointer;
+}
+.allinone_carousel.charming .rightNav:hover {
+}
+.allinone_carousel.charming .bottomNav {
+	position:absolute;
+	height:35px;
+	width:0;
+	padding-left:9px;
+	z-index:140;
+}
+.allinone_carousel.charming .bottomNavButtonOFF {
+	float:left;
+	display:block;
+	width:19px;
+	height:19px;
+	padding-left:9px;
+	cursor: pointer;
+}
+
+.allinone_carousel.charming .bottomNavButtonON {
+	float:left;
+	display:block;
+	width:19px;
+	height:19px;
+	padding-left:9px;
+	cursor: pointer;
+}
+
+.allinone_carousel.charming .bottomNavLeft {
+	display:none;
+	position:absolute;
+	z-index:140;
+}
+.allinone_carousel.charming .bottomNavRight {
+	display:none;
+	position:absolute;
+	z-index:140;
+}
+
+.allinone_carousel.charming .bottomOverThumb {
+	position:absolute;
+	width:88px;
+	height:106px;
+	bottom:27px;
+	left:0px;
+	margin-left:-25px;
+}
+.allinone_carousel.charming .bottomOverThumb img {
+	border:4px solid #22032e;
+}
+.hideElement {
+	display:none;
+}
