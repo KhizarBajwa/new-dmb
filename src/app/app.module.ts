@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -12,7 +14,9 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
+    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
